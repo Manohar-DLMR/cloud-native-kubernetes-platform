@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: platform-demo-config
+  namespace: platform-demo
+data:
+  SERVICE_NAME: "platform-demo"
+  APP_VERSION: "v1"
+  SLOW_MODE: "false"
+  ERROR_RATE: "0.0"
+  CPU_BURN: "true"
